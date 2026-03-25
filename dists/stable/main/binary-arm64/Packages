@@ -1,0 +1,60 @@
+Package: adaptation-samsung-a22
+Version: 2+git20260325081459.50846b9.next
+Architecture: arm64
+Maintainer: MaxShevPovar <maxsev.x41@gmail.com>
+Installed-Size: 9
+Depends: adaptation-hybris-api32-phone, adaptation-samsung-a22-configs (= 2+git20260325081459.50846b9.next)
+Filename: packages/adaptation-samsung-a22_2+git20260325081459.50846b9.next_arm64.deb
+Size: 2224
+MD5sum: 12d8d5bd0c1a25bd920a2789fb463f2c
+SHA1: 322cc6c8e65e2f09c1b3aa05402d6c83a2b82bce
+SHA256: b0751ee312acefe5635d93bd36168df522a6047e608e602597e90500b6ea9cc4
+Section: metapackages
+Priority: optional
+Description: Community adaptation for samsung-a22 - metapackage
+X-Droidian-Vcs-Revision: 50846b918dc4cacee6fd4eb2e7971d153cdc47b2
+X-Droidian-Vcs-Url: https://github.com/MaxShevPovar/adaptation-samsung-a22.git
+
+Package: adaptation-samsung-a22-configs
+Source: adaptation-samsung-a22
+Version: 2+git20260325081459.50846b9.next
+Architecture: arm64
+Maintainer: MaxShevPovar <maxsev.x41@gmail.com>
+Installed-Size: 45
+Filename: packages/adaptation-samsung-a22-configs_2+git20260325081459.50846b9.next_arm64.deb
+Size: 6016
+MD5sum: bafe0bd7b4c8c5315ba2067b5115dfd8
+SHA1: b4227820cc1e9f15c4cdf97dc461aa754238dce8
+SHA256: c31db3ddea68bcd50b544323822b132a077f33d3860c1a39e583b0f1211d783b
+Section: metapackages
+Priority: optional
+Description: Community adaptation for samsung-a22 - adaptation configurations
+X-Droidian-Vcs-Revision: 50846b918dc4cacee6fd4eb2e7971d153cdc47b2
+X-Droidian-Vcs-Url: https://github.com/MaxShevPovar/adaptation-samsung-a22.git
+
+Package: hello
+Version: 2.10-3
+Architecture: arm64
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 313
+Depends: libc6 (>= 2.34)
+Conflicts: hello-traditional
+Breaks: hello-debhelper (<< 2.9)
+Replaces: hello-debhelper (<< 2.9), hello-traditional
+Filename: packages/hello_2.10-3_arm64.deb
+Size: 52308
+MD5sum: 97c78ed3e5498aeccd04798392317e0e
+SHA1: 886b91e2acb631a2e0dcdfdf21af03f55d801d22
+SHA256: f7b20d304db0f3a18da28eb2000de2b0205eaa340c1d0fecec3b7c50acc932dc
+Section: devel
+Priority: optional
+Homepage: https://www.gnu.org/software/hello/
+Description: example package based on GNU hello
+ The GNU hello program produces a familiar, friendly greeting.  It
+ allows non-programmers to use a classic computer science tool which
+ would otherwise be unavailable to them.
+ .
+ Seriously, though: this is an example of how to do a Debian package.
+ It is the Debian version of the GNU Project's `hello world' program
+ (which is itself an example for the GNU Project).
+
